@@ -7,7 +7,7 @@
   },
 
   // Main Application Title
-  title: "Explore simulated data from [paper title]",
+  title: "Explore data",
 
   // Application Description
   description: "This application allows you to explore the simulated data from our paper. Use the filters to select specific subsets of the data and view the results.",
@@ -15,7 +15,7 @@
   // Dataset source
   // Either local path (relative to the app's root directory) or URL for external source
   data_source: {
-      path: "data/Final_table.csv",
+      path: "data/dataset.csv",
       url: "",
     },
 
@@ -24,36 +24,36 @@
     // Single-valued filters (displayed as dropdown selectors)
     single_valued: [
       {
-        name: "Generative_process",
-        label: "Generative Process",
+        name: "Column_name",
+        label: "Variable label",
       },
       {
-        name: "Noise_distribution",
-        label: "Noise Distribution",
-      },
-      {
-        name: "Final_normalization",
-        label: "Final Normalization",
+        name: "Column_name",
+        label: "Variable label",
       },
     ],
     
     // Range filters with discrete values (displayed as two horizontal dropdown selectors)
     range_discrete: [
       {
-        name: "Time_Series_Length",
-        label: "Time Series Length",
+        name: "Column_name",
+        label: "Variable label",
       },
       {
-        name: "Synthetic_Neurons",
-        label: "Synthetic Neurons",
+        name: "Column_name",
+        label: "Variable label",
       },
     ],
     
     // Range filters with continuous values (displayed as a slider)
     range_continuous: [
       {
-        name: "Tau",
-        label: "Tau",
+        name: "Column_name",
+        label: "Variable label",
+      },
+      {
+        name: "Column_name",
+        label: "Variable label",
       },
     ],
   },
@@ -61,21 +61,21 @@
   // Results Display Configuration
   results: {
     // Optional prefixes for result columns
-    prefix_options: ["PA", "CV", "K1", "PR", "80%", "90%"],
+    prefix_options: [],
     
     // Columns to display in the results table
     columns: [
       {
-        name: "Identifiable_Dimensions",
-        label: "Identifiable Dimensions",
+        name: "Column_name",
+        label: "Variable label",
       },
       {
-        name: "Real_data_in_denoised_matrix",
-        label: "Real Data in Denoised Matrix",
+        name: "Column_name",
+        label: "Variable label",
       },
       {
-        name: "Estimated_noise_err",
-        label: "Estimated Noise Error",
+        name: "Column_name",
+        label: "Variable label",
       },
     ],
   },
@@ -84,30 +84,30 @@
   plots: {
     // Column name for the x-axis (shared across all subplots)
     x_axis: {
-      name: "Tau",
-      label: "Tau",
+        name: "Column_name",
+	label: "Variable label",
     },
     
     // List of column names for y-axes 
     y_axes: [
       {
-        name: "Identifiable_Dimensions",
-        label: "Identifiable Dimensions",
+        name: "Column_name",
+        label: "Variable label",
       },
       {
-        name: "Real_data_in_denoised_matrix",
-        label: "Real Data in Denoised Matrix",
+        name: "Column_name",
+        label: "Variable label",
       },
       {
-        name: "Estimated_noise_err",
-        label: "Estimated Noise Error",
+        name: "Column_name",
+        label: "Variable label",
       },
     ],
     
     // Column name for the color scale of the markers
     color_variable: {
-      name: "Noise",
-      label: "Noise",
+        name: "Column_name",
+        label: "Variable label",
     },
   },
 }
