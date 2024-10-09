@@ -71,7 +71,7 @@ Specify the data source accordingly:
 
 ```json5
 data_source: {
-      path: "data/your_data.csv",
+      path: "data/dataset.csv",
       url: "",
     }
 ```
@@ -85,8 +85,8 @@ filters: {
 // Single-valued filters (displayed as dropdown selectors)
 single_valued: [
     {
-    name: "column_name",
-    label: "variable name",
+    name: "Column_name",
+    label: "Variable label",
     },
 
     // Add more filters
@@ -95,8 +95,8 @@ single_valued: [
 // Range filters with discrete values (displayed as two horizontal dropdown selectors)
 range_discrete: [
     {
-    name: "column_name",
-    label: "variable name",
+    name: "Column_name",
+    label: "Variable label",
     },
 
     // Add more filters
@@ -105,8 +105,8 @@ range_discrete: [
 // Range filters with continuous values (displayed as a slider)
 range_continuous: [
     {
-    name: "column_name",
-    label: "variable name",
+    name: "Column_name",
+    label: "Variable label",
     },
 ],
 }
