@@ -1,7 +1,10 @@
 # Explore-our-data-app
 
-Just a minimal csv explorer app, built and hosted on [Streamlit](https://docs.streamlit.io/). It allows custom filtering and plotting of tabular data, in the most common formats (csv, tsv, xlsl).
-To specify which columns represent data filters, results and plots variables, a JSON file is provided in the repo (check the [template](config.json5)).
+Just a minimal csv explorer app, built and hosted on [Streamlit](https://docs.streamlit.io/). 
+
+It allows custom filtering and plotting of tabular data, in the most common formats (csv, tsv, xlsl).
+
+To specify how to manage your tables (data filters, results and plots variables), a JSON file is provided in the repo (check the [template](config.json5)).
 
 **What's the use of this app?**
 If you're looking for a way to show your data in a free, simple and effective interface: that's the case. 
