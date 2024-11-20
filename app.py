@@ -8,10 +8,10 @@ config = load_config('config.json5')
 # Set up page
 st.set_page_config(**config['page_config'])
 st.title(config['title'])
-st.write(config['description'])
+config['description']
     
 # Section title
-st.subheader("Filter the data" ,divider=True)
+st.subheader("Filter the data", divider=True)
 
 # Load data, either from url or from a path
 if config['data_source']['url']:
