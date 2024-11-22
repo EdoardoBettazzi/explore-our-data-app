@@ -11,7 +11,7 @@ If you're looking for a way to show your data in a free, simple and effective in
 
 **A case use from open-research**
 [Vaccari et al. 2024](PreprintLink) computed simulations of neural data based on multiple combinations of parameters (like the number of neurons, length of recordings, etc), then used different methods to estimate the least number of dimensions representing the signal.
-Since the process can be computationally intensive and time-consuming, they released the simulated data for everyone to use (and save some energy :seedling:), and provided a [link](SimulationsDataExplorer) to their own version of this app, so that readers could filter the data and explore specific results.
+Since the process can be computationally intensive and time-consuming, they released the simulated data for everyone to use (and save some energy :seedling:), and provided a [link](https://dimensionality-estimation-upper-bound.streamlit.app) to their own version of this app, so that readers could filter the data and explore specific results.
 
 ## Install, customize and deploy
 
